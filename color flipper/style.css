@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Playfair+Display&family=Poppins:wght@600&family=Raleway&family=Roboto:wght@300;500&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+nav {
+  height: 10vh;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 2px -4px 12px 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: larger;
+}
+.list-items {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+}
+li {
+  margin-right: 2rem;
+  list-style: none;
+}
+h3 {
+  font-weight: 400;
+  color: rgb(20, 184, 184);
+}
+h2 {
+  color: white;
+  padding-bottom: 1.5rem;
+}
+main {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(20, 184, 184);
+}
+.center_background {
+  padding: 10px;
+  background-color: black;
+}
+.btn-primary {
+  border: 2px solid white;
+  background: transparent;
+  margin: 18px;
+  width: 20vw;
+  height: 5vh;
+  border-radius: 4px;
+  color: aqua;
+  font-size: 20px;
+}
+span {
+  margin-left: 2px;
+  color: aqua;
+}
